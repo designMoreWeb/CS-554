@@ -14,7 +14,7 @@ const constructorMethod = () => {
 
   function createWindow() {
     // Create the browser window.
-    mainWindow = new BrowserWindow({ width: 800, height: 600 })
+    mainWindow = new BrowserWindow({ width: 1200, height: 900 })
 
     mainWindow.loadURL('http://localhost:3000/');
 
